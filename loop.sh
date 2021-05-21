@@ -3,7 +3,7 @@
 s=1
 e=10000
 n=1
-for ((i = 0; i<500; i++))
+for ((i = 0; i<500; i++)) #no computer crash with 500
 	do	
 		sed -n "$s,$e"p tel08.txt > "$n".csv;
 		((s=e))
